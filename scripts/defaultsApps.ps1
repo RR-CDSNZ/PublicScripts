@@ -30,3 +30,6 @@ Disable-InternetExplorerESC
 
 # Set GMT as the Timezone
 Set-TimeZone -Id "New Zealand Standard Time"
+
+# Set Region/Format
+Set-Culture en-NZ
