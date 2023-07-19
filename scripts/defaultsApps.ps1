@@ -33,3 +33,6 @@ Set-TimeZone -Id "New Zealand Standard Time"
 
 # Set Region/Format
 Set-Culture en-NZ
+
+# Set System Locale
+Set-WinSystemLocale en-NZ
