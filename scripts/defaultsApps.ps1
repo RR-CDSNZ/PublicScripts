@@ -2,7 +2,7 @@
 New-NetFirewallRule -Name 'AllowICMPv4' -DisplayName 'AllowICMPv4' -Profile 'Any' -Direction 'Inbound' -Action 'Allow' -Protocol 'ICMPv4' -Program 'Any' -LocalAddress 'Any' -RemoteAddress 'Any'
 
 
-# Install the Datto Agent for Servium
+# Install the RR Datto Agent for HYB NZ
 $drive = 'C:\Packages'
 $appName = 'Datto'
 New-Item -Path $drive -Name $appName  -ItemType Directory -ErrorAction SilentlyContinue
