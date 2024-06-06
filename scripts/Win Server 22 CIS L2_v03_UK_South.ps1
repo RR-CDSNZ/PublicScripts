@@ -769,7 +769,7 @@ $ExecutionList = @(
     "WinRMServiceAllowAutoConfig",                                      #18.9.102.2.2 (2023.01.27 - added to default configuration)
     "WinRMServiceAllowUnencryptedTraffic",                              #18.9.102.2.3 (2023.01.27 - added to default configuration)
     "WinRMServiceDisableRunAs",                                         #18.9.102.2.4 (2023.01.27 - added to default configuration)
-    "WinRSAllowRemoteShellAccess",                                      #18.9.103.1 (2023.01.27 - added to default configuration)
+    #"WinRSAllowRemoteShellAccess",                                     #18.9.103.1 (2023.01.27 - added to default configuration) - DISABLED, affects IIS Service install
     "DisallowExploitProtectionOverride",                                #18.9.105.2.1 (2023.01.27 - added to default configuration)
     "NoAutoRebootWithLoggedOnUsers",                                    #18.9.108.1.1 (2023.01.27 - added to default configuration)
     "ConfigureAutomaticUpdates",                                        #18.9.108.2.1 (2023.01.27 - added to default configuration)
