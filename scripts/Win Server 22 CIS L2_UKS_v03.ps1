@@ -144,7 +144,8 @@ $AttackSurfaceReductionExclusions = @(
     "%USERPROFILE%\.rest-client\*",
     "C:\Program Files (x86)\WiX Toolset v3.11\bin",
     "C:\Program Files\Cisco\AMP\",
-    "C:\Program Files\Cisco\AMP\*"
+    "C:\Program Files\Cisco\AMP\*",
+    "C:\Windows\System32\LogFiles\Firewall\*"
 
     
     # File Example
@@ -196,7 +197,10 @@ $AttackSurfaceReductionExclusions = @(
     "*\VBCSCompiler.exe",
     "*\light.exe",
     "*\C:\Program Files\Cisco\AMP\sfc.exe",
-    "*\sfc.exe"
+    "*\sfc.exe",
+    "C:\Program Files (x86)\CentraStage\Core.XmlSerializers.dll ",
+    "C:\Program Files (x86)\CentraStage\WindowsAgent.dll",
+    "C:\ProgramData\CentraStage\AEMAgent\DataLog\poll.dat"
 
     # File Extensions
     "*.idb",
@@ -269,7 +273,8 @@ $DefenderExclusionPaths = @(
     "%USERPROFILE%\.rest-client\*",
     "C:\Program Files (x86)\WiX Toolset v3.11\bin",
     "C:\Program Files\Cisco\AMP\",
-    "C:\Program Files\Cisco\AMP\*"
+    "C:\Program Files\Cisco\AMP\*",
+    "C:\Windows\System32\LogFiles\Firewall\*"
 )
 
 
