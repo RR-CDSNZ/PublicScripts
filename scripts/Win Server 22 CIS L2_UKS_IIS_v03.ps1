@@ -218,7 +218,8 @@ $AttackSurfaceReductionExclusions = @(
     "%USERPROFILE%\.rest-client\*",
     "C:\Program Files (x86)\WiX Toolset v3.11\bin",
     "C:\Program Files\Cisco\AMP\",
-    "C:\Program Files\Cisco\AMP\*"
+    "C:\Program Files\Cisco\AMP\*",
+    "C:\Windows\System32\LogFiles\Firewall\*"
 
     
     # File Example
@@ -343,7 +344,8 @@ $DefenderExclusionPaths = @(
     "%USERPROFILE%\.rest-client\*",
     "C:\Program Files (x86)\WiX Toolset v3.11\bin",
     "C:\Program Files\Cisco\AMP\",
-    "C:\Program Files\Cisco\AMP\*"
+    "C:\Program Files\Cisco\AMP\*",
+    "C:\Windows\System32\LogFiles\Firewall\*"
 )
 
 
