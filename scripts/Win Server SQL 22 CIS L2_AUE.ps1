@@ -64,7 +64,7 @@ $LogonLegalNoticeMessageTitle = ""
 $LogonLegalNoticeMessage = ""
 
 # Set the max size of log files
-$WindowsFirewallLogSize = 2*1024*1024 # Default for script is 4GB
+$WindowsFirewallLogSize = 16*1024 # Max allowed values are between 4- 32 MB
 $EventLogMaxFileSize = 4*1024*1024 # Default 4GB (for each log)
 $WindowsDefenderLogSize = 1024MB
 
