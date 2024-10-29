@@ -143,8 +143,7 @@ $ExecutionList = @(
   
     ##########################################################
     # HYB - Additional Settings deployment functions
-    "AddDefenderExclusions",                                            # HYB - Add Defender Exclusions
-    "EnableSecurityAuditing"                                            # HYB - Enable Security Event auditing
+    "AddDefenderExclusions"                                            # HYB - Add Defender Exclusions
 )
 
 
