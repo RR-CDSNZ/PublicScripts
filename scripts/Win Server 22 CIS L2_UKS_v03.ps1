@@ -60,7 +60,7 @@ $LogonLegalNoticeMessage = ""
 # Set the max size of log files
 $WindowsFirewallLogSize = 16*1024 # Max allowed values are between 4- 32 MB
 $EventLogMaxFileSize = 4*1024*1024 # Default 4GB (for each log)
-$WindowsDefenderLogSize = 1024MB
+$WindowsDefenderLogSize = 1024 #MB
 
 $AdminAccountPrefix = "DisabledUser" # Built-in admin account prefix. Numbers will be added to the end so that the built in admin account will be different on each server (account will be disabled after renaming)
 $GuestAccountPrefix = "DisabledUser" # Build-in guest account prefix. Numbers will be added to the end so that the built in admin account will be different on each server (account will be disabled after renaming)
