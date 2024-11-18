@@ -5,6 +5,9 @@
 # Setup ICMPv4 Access
 New-NetFirewallRule -Name 'AllowICMPv4' -DisplayName 'AllowICMPv4' -Profile 'Any' -Direction 'Inbound' -Action 'Allow' -Protocol 'ICMPv4' -Program 'Any' -LocalAddress 'Any' -RemoteAddress 'Any'
 
+# Setup SQL Access
+New-NetFirewallRule -DisplayName "SQLServer instance Inbound" -Direction Inbound -LocalPort 1433 -Protocol TCP -Action Allow
+New-NetFirewallRule -DisplayName "SQLServer Browser service Inbound" -Direction Inbound -LocalPort 1434 -Protocol UDP -Action Allow
 
 # Install the RR Datto Agent for HYB NZ
 $drive = 'C:\Packages'
